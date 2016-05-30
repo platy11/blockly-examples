@@ -1,0 +1,31 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="text_print" id="V.fGA|tDaQeW{)PZy,%n" x="163" y="138">
+    <value name="TEXT">
+      <shadow type="text" id="Ms;C=Xa/L{e.*UJ5S^eu">
+        <field name="TEXT">The answer to 5454 + 655667 is:</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="text_print" id="D?z/%B%GEf%OpB{5`iwd">
+        <value name="TEXT">
+          <shadow type="text" id=")^@OIRN5ybB/^D9^{1So">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="math_arithmetic" id="u|}R`4qZqa6w!Fg:7^?M">
+            <field name="OP">ADD</field>
+            <value name="A">
+              <shadow type="math_number" id="{PE:tV!bH9!^U]N;*1aj">
+                <field name="NUM">5454</field>
+              </shadow>
+            </value>
+            <value name="B">
+              <shadow type="math_number" id="57.d1.|iF1K5SWeUlmEJ">
+                <field name="NUM">655667</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
